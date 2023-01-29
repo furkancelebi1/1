@@ -1,0 +1,110 @@
+*{
+
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+body{
+
+height: 100vh;
+background: url(1876.jpg);  
+background-size: 100% 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.profile-card{
+
+width: 400px;
+text-align: center;
+
+}
+
+.card-header{
+
+padding: 60px 40px;
+border-radius: 20px;
+}
+
+.picture img{
+
+display: block;
+width:100px;
+height:100px;
+border-radius: 50%;
+}
+
+.picture{
+
+display: inline-block;
+padding: 8px;
+background:linear-gradient(130deg,#74b9ff,#e28341);
+margin: auto;
+border-radius: 50%;
+}
+
+.name{
+
+color: #ffff;
+font-size: 24px;
+font-weight: 600;
+margin: 10px 0;
+}
+
+.description{
+font-size: 22px;
+color:#ffff;
+}
+
+.sm{
+
+
+display: flex;
+justify-content: center;
+margin: 20px 0;
+
+}
+
+.sm a{
+
+color: rgb(255, 255, 255);
+width: 56px;
+font-size: 45px;
+transition:.3s linear; 
+}
+
+.sm a:hover{
+
+color: aqua;
+}
+
+.contact-btn{
+
+display: inline-block;
+
+padding: 12px 50px;
+
+color: #ffff;
+
+border: 2px solid #ffff;
+
+border-radius: 6px;
+
+margin-top: 16px;
+
+transition: .3s linear;
+}
+
+.contact-btn:hover{
+
+background: rgb(64, 35, 189);
+
+color:#ffff;
+
+
+
+}
